@@ -1,0 +1,23 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [
+      "single",
+      "avoid-escape"
+    ],
+    "eofline": false,
+    "no-conditional-assignment": false,
+    "no-unused-variable": [
+      true
+    ],
+    "no-var-requires": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ]
+  },
+  "rulesDirectory": []
+}
