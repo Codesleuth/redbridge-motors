@@ -40,8 +40,8 @@ jspm_packages
 # Typings
 src/typings/
 
-# Build
-src/build/
+# Public
+src/public/
 
 src/app/**/*.js
 src/app/**/*.map
