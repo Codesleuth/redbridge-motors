@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - node
+  - 6
+
+install:
+  - cd src && npm install
+
+script:
+  - npm run build
+
+cache:
+  directories:
+    - node_modules
