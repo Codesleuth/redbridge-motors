@@ -45,3 +45,5 @@ src/public/
 
 src/app/**/*.js
 src/app/**/*.map
+src/bin/**/*.js
+src/bin/**/*.map
