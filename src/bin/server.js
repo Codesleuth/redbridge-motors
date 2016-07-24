@@ -1,10 +1,7 @@
+"use strict";
 var express = require('express');
 var compression = require('compression');
-
-module.exports = (function() {
-    var app = express();
-    app.use(compression());
-    app.use(express.static(__dirname + '/../public'));
-
-    app.listen(process.env.PORT || 3000);
-})();
+var app = express();
+app.use(compression());
+app.use(express.static(__dirname + '/../public'));
+app.listen(process.env.PORT || 3000);
