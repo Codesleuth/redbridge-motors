@@ -4,11 +4,15 @@ node_js:
   - 6
 
 install:
-  - cd src && npm install
+  - cd src/server && npm install
+  - cd ../web && npm install
+  - cd ../
 
 script:
-  - npm run build
+  - cd server && npm run build
+  - cd ../web && npm run build
 
 cache:
   directories:
-    - node_modules
+    - src/server/node_modules
+    - src/web/node_modules
