@@ -38,12 +38,12 @@ jspm_packages
 .node_repl_history
 
 # Typings
-src/typings/
+src/web/typings/
+src/server/typings/
 
 # Public
-src/public/
+public
 
-src/app/**/*.js
-src/app/**/*.map
-src/bin/**/*.js
-src/bin/**/*.map
+src/web/app/**/*.js
+src/web/app/**/*.map
+src/server/**/*.js

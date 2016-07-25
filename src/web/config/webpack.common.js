@@ -5,9 +5,9 @@ var helpers = require('./helpers');
 
 module.exports = {
   entry: {
-    'polyfills': './app/polyfills.ts',
-    'vendor': './app/vendor.ts',
-    'app': './app/main.ts'
+    'polyfills': './src/app/polyfills.ts',
+    'vendor': './src/app/vendor.ts',
+    'app': './src/app/main.ts'
   },
 
   resolve: {
@@ -47,7 +47,7 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: 'app/index.html'
+      template: 'src/app/index.html'
     })
   ]
 };
